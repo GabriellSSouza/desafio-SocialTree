@@ -27,6 +27,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #BB99DD;
+    background-color: #FAF7FD;
 }
 
 main {
@@ -95,7 +96,7 @@ p {
     background-color: #BB99DD;
 }
 .links li:hover a{
-    color: white;
+    color:#FAF7FD;
 }
 
 .logos {
