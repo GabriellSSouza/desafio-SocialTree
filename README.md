@@ -7,3 +7,6 @@ Desafio de um site para compartilhar as redes sociais. Desafio do Discover da Ro
 
 ### Desafio opcional :white_check_mark:
 - [ ] Adicione ícones com links para outras redes sociais
+
+### Link do site
+[Acesse o resultado aqui !](https://gabriellssouza.github.io/desafio-SocialTree/)
