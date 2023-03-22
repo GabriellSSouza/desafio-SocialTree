@@ -33,6 +33,18 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80vw;
+    max-width: 400px;
+}
+
+.area_perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 15px;
 }
 
 .perfil img{
@@ -44,22 +56,18 @@ main {
 .perfil{
    position: relative; 
    display: flex;
+   border: 2px solid #BB99DD;
+   border-radius: 50%;
+   padding: 3px;
 }
 
-.perfil::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    height: 152px;
-    width: 152px;
-    border-radius: 50%;
-    border: 1px solid #BB99DD;
-}
 p {
     font-size: 75%;
-    margin: 15px 0px;
+    margin-bottom: 15px;
+}
+
+.links {
+    width: 100%;
 }
 
 .links li a{
@@ -72,13 +80,22 @@ p {
 
 .links li {
     border: 2px solid #BB99DD;
-    width: 70vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 0px;
+    padding: 10px 0px;
     border-radius: 5px;
     margin-bottom: 15px;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.links li:hover{
+    background-color: #BB99DD;
+}
+.links li:hover a{
+    color: white;
 }
 
 .logos {
@@ -90,4 +107,14 @@ p {
 
 .cada_logo img {
     width: 80%;
+}
+
+@media screen and (min-width:900px){
+    .area_perfil p {
+        font-size: 100%;
+    }
+
+    .cada_logo img{
+        width: 100%;
+    }
 }
